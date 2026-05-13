@@ -136,8 +136,6 @@ public class Gabarito {
 				System.out.println("Resposta inválida. Deseja saber a nota de mais alguma questão?");
 				disponibilidade = ler.next();
 			}
-			System.out.println("Há mais algum aluno?");
-			disponibilidade = ler.next();
 		}
 		ler.close();
 		double media = (double) acertos / aluno;
